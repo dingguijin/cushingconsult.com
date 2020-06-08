@@ -1,13 +1,15 @@
 import React from "react"
 
+import styles from "../css/home.css"
+
 export default function Home() {
-  return <div>
-    <div>
-    <div>
-    Cushing Consult
+  return <div className="homeBackground">
+    <div className="homeCenter">
+      <div className="title">
+        Cushing Consult
     </div>
-    <div>
-    库 寻 咨 询
+      <div className="title">
+        库 寻 咨 询
     </div>
     </div>
     <div>
