@@ -14,63 +14,44 @@ export default function Home() {
 
             <ul>
                 <li>
-                    • 跨境财务咨询
-                    • Cross-border financial advisory；
+                    跨境财务咨询
+                    Cross-border financial advisory；
             </li>
                 <li>
-                    • 财务尽调和税收优化
-                    • Financial due diligence and tax advisory；
+                    财务尽调和税收优化
+                    Financial due diligence and tax advisory；
             </li>
                 <li>
-                    • 兼职财务总监/运营总监
-
-
-                    • Part-time CFO/COO；
+                    兼职财务总监/运营总监
             </li>
                 <li>
-                    • 业绩提升/债务重组/临时接管
-
-                    • Performance improvement, debt restructuring, and interim management
+                    业绩提升/债务重组/临时接管
             </li>
 
                 <li>
 
-                    • 潘文才先生和叶杰成先生于2020年在上海成立
-
-                    • The firm was founded by Mr. Pan and Mr. Ye in shanghai in 2020
+                    潘文才先生和叶杰成先生于2020年在上海成立
             </li>
                 <li>
-                    • 各自都有超过20多年的企业管理和运营的经验
-
-                    • Each founder has over 20 years corporate management experience
+                    各自都有超过20多年的企业管理和运营的经验
             </li>
                 <li>
 
-                    • 在创立库寻之前，潘先生在美国和南非工作过8年，叶先生在德国和瑞士工作过7年
-
-                    • Before founding Cushing, Mr. Pan has worked in the US and South Africa for 8 years, and Mr. Ye in Germany and Switzerland for 7 years
+                    在创立库寻之前，潘先生在美国和南非工作过8年，叶先生在德国和瑞士工作过7年
             </li>
                 <li>
-                    • 我们认为每个客户的需求都是不一样的，我们会利用我们的专业知识帮助客户在这个急剧变化的环境中，寻找到最佳解决方案
-
-                    • We believe each client has its own unique needs, we provide customized service to find the optimum solution
+                    我们认为每个客户的需求都是不一样的，我们会利用我们的专业知识帮助客户在这个急剧变化的环境中，寻找到最佳解决方案
             </li>
                 <li>
-                    • 我们一直坚持结果导向，除了给客户提建议，我们经常带领团队为客户执行
-                    • We are results oriented, other than providing advisory service, we often execute on behalf of the client
+                    我们一直坚持结果导向，除了给客户提建议，我们经常带领团队为客户执行
             </li>
 
                 <li>
-                    • 我们永远把客户的利益放在第一位
-
-
-                    • We always put client’s interest first
+                    我们永远把客户的利益放在第一位
             </li>
 
                 <li>
-                    • 以往客户和同事对我们的评价是：专业，务实，创新，真诚
-
-                    • The feedback from our previous clients and colleagues：Professional, Down to earth, Creative, Honest
+                    以往客户和同事对我们的评价是：专业，务实，创新，真诚
             </li>
 
             </ul>
@@ -83,7 +64,7 @@ export default function Home() {
                     潘先生持有对外经济贸易大学会计学本科学位和美国犹他大学会计学硕士学位。
                 </div>
                 <div>
-                    <img src={"../../img/panwencai.jpg"} />
+                    <img src={require("../../img/panwencai.jpg")} />
                 </div>
             </div>
 
@@ -93,7 +74,7 @@ export default function Home() {
                     叶先生持有大连理工大学物理学本科学位和电子工程硕士学位。
                 </div>
                 <div>
-                    <img src={"../../img/yejiecheng.jpg"} />
+                    <img src={require("../../img/yejiecheng.jpg")} />
                 </div>
             </div>
 
