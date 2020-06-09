@@ -38,6 +38,14 @@
     flex-wrap: wrap;
     margin: auto;
     padding: 20px;   
+    display: flex;
+    max-width: 920px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 .feature-container .feature-item {
@@ -91,4 +99,12 @@
 }
 .footer-container .footer-language .footer-language-item {
     padding: 4px;
+}
+
+@media screen and (max-width:960px){
+    .feature-container, .feature-items {
+        margin: 0px !important;
+        padding: 0px !important;
+        width:100% !important;
+    }
 }

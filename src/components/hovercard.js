@@ -18,7 +18,7 @@ class HoverCard extends React.Component {
         const { texts } = this.props;
 
         return (
-            <div>
+            <div className="hovercard-container">
                 <div style={{
                     display: "flex",
                     justifyContent: "center"
