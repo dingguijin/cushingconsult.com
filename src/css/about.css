@@ -107,4 +107,17 @@
         padding: 0px !important;
         width:100% !important;
     }
+
+    .team-container .team-item-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-container {
+        align-items: center;
+    }
+
+    .footer-container .footer-contactus {
+        flex-direction: column;       
+    }
 }
