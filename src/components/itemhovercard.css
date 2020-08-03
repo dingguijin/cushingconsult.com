@@ -1,0 +1,45 @@
+.item-hovercard
+{
+    z-index:99;
+    background-color:#fff;
+    border: 1px solid rgba(90,122,190,.08);
+    border-radius: 8px;
+    margin:20px;
+    padding: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    display: block;
+    width: 80%;
+    max-width: 100%;
+    transition: all .3s;
+    background:rgba(255,255,255,1);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+.item-hovercard:hover{
+    background:rgba(255,255,255,0);
+    transform: scale(1.2);
+}
+
+.item-hovercard-container {
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
+}
+
+.item-hovercard-title {
+    font-size: 14px;
+}
+
+@media screen and (max-width:960px){
+    .item-hovercard {
+        width: 100% !important;
+    }
+
+    .item-hovercard-container {
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+}

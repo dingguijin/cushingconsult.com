@@ -17,9 +17,21 @@ class HoverCard extends React.Component {
     render() {
         const { texts } = this.props;
 
+        const descs = texts.desc.map((i, index) => {
+            return (<p style={{
+                fontSize: "14px",
+                fontWeight: "300",
+                paddingBottom: "15px",
+                paddingTop: "15px"
+            }}>
+                { i }
+            </p>);
+            
+        });
+        
         return (
             <div className="hovercard-container">
-                <div style={{
+            <div style={{
                     display: "flex",
                     justifyContent: "center"
                 }}>
@@ -27,18 +39,7 @@ class HoverCard extends React.Component {
                         <div ></div>
                         <div>
                             <h2>{texts.title}</h2>
-                            <p style={{
-                                fontSize: "14px",
-                                fontWeight: "300",
-                                paddingBottom: "15px",
-                                paddingTop: "15px"
-                            }}>
-                                {texts.desc}
-                            </p>
-
-                            <a>
-                                ...
-                            </a>
+                            {descs}
                         </div>
                     </div>
                 </div>
